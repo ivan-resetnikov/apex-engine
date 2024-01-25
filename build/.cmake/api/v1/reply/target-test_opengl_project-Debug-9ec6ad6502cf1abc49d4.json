@@ -51,6 +51,12 @@
 				"file" : 0,
 				"line" : 9,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
 			}
 		]
 	},
@@ -83,6 +89,10 @@
 		{
 			"backtrace" : 5,
 			"id" : "window::@dc5dce909985861f8f20"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "mesh::@dc5dce909985861f8f20"
 		}
 	],
 	"id" : "test_opengl_project::@6890427a1f51a3e7e1df",
@@ -116,6 +126,11 @@
 			{
 				"backtrace" : 5,
 				"fragment" : "src/apex/libwindow.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "src/apex/libmesh.a",
 				"role" : "libraries"
 			}
 		],

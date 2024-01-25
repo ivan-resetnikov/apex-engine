@@ -158,6 +158,20 @@ window/fast:
 	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/window.dir/build.make src/apex/CMakeFiles/window.dir/build
 .PHONY : window/fast
 
+# Convenience name for target.
+src/apex/CMakeFiles/mesh.dir/rule:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apex/CMakeFiles/mesh.dir/rule
+.PHONY : src/apex/CMakeFiles/mesh.dir/rule
+
+# Convenience name for target.
+mesh: src/apex/CMakeFiles/mesh.dir/rule
+.PHONY : mesh
+
+# fast build rule for target.
+mesh/fast:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/mesh.dir/build.make src/apex/CMakeFiles/mesh.dir/build
+.PHONY : mesh/fast
+
 core.o: core.cpp.o
 .PHONY : core.o
 
@@ -206,6 +220,30 @@ glad.c.s:
 	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/glad.dir/build.make src/apex/CMakeFiles/glad.dir/glad.c.s
 .PHONY : glad.c.s
 
+mesh.o: mesh.cpp.o
+.PHONY : mesh.o
+
+# target to build an object file
+mesh.cpp.o:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/mesh.dir/build.make src/apex/CMakeFiles/mesh.dir/mesh.cpp.o
+.PHONY : mesh.cpp.o
+
+mesh.i: mesh.cpp.i
+.PHONY : mesh.i
+
+# target to preprocess a source file
+mesh.cpp.i:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/mesh.dir/build.make src/apex/CMakeFiles/mesh.dir/mesh.cpp.i
+.PHONY : mesh.cpp.i
+
+mesh.s: mesh.cpp.s
+.PHONY : mesh.s
+
+# target to generate assembly for a file
+mesh.cpp.s:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/mesh.dir/build.make src/apex/CMakeFiles/mesh.dir/mesh.cpp.s
+.PHONY : mesh.cpp.s
+
 window.o: window.cpp.o
 .PHONY : window.o
 
@@ -240,6 +278,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... core"
 	@echo "... glad"
+	@echo "... mesh"
 	@echo "... window"
 	@echo "... core.o"
 	@echo "... core.i"
@@ -247,6 +286,9 @@ help:
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"
+	@echo "... mesh.o"
+	@echo "... mesh.i"
+	@echo "... mesh.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"

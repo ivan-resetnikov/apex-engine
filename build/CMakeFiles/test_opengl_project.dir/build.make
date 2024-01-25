@@ -95,6 +95,7 @@ test_opengl_project: CMakeFiles/test_opengl_project.dir/build.make
 test_opengl_project: src/apex/libglad.a
 test_opengl_project: src/apex/libcore.a
 test_opengl_project: src/apex/libwindow.a
+test_opengl_project: src/apex/libmesh.a
 test_opengl_project: CMakeFiles/test_opengl_project.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ivan/Projects/C++/Engine Attempt 0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_opengl_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_opengl_project.dir/link.txt --verbose=$(VERBOSE)

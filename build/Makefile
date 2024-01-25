@@ -168,6 +168,19 @@ window/fast:
 	$(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/window.dir/build.make src/apex/CMakeFiles/window.dir/build
 .PHONY : window/fast
 
+#=============================================================================
+# Target rules for targets named mesh
+
+# Build rule for target.
+mesh: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mesh
+.PHONY : mesh
+
+# fast build rule for target.
+mesh/fast:
+	$(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/mesh.dir/build.make src/apex/CMakeFiles/mesh.dir/build
+.PHONY : mesh/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -202,6 +215,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... core"
 	@echo "... glad"
+	@echo "... mesh"
 	@echo "... test_opengl_project"
 	@echo "... window"
 	@echo "... src/main.o"

@@ -49,4 +49,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/apex/CMakeFiles/glad.dir/DependInfo.cmake"
   "src/apex/CMakeFiles/core.dir/DependInfo.cmake"
   "src/apex/CMakeFiles/window.dir/DependInfo.cmake"
+  "src/apex/CMakeFiles/mesh.dir/DependInfo.cmake"
   )

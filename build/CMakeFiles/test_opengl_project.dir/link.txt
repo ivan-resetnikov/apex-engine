@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/test_opengl_project.dir/src/main.cpp.o -o test_opengl_project  src/apex/libglad.a -lglfw src/apex/libcore.a src/apex/libwindow.a 
+/usr/bin/g++ -g -rdynamic CMakeFiles/test_opengl_project.dir/src/main.cpp.o -o test_opengl_project  src/apex/libglad.a -lglfw src/apex/libcore.a src/apex/libwindow.a src/apex/libmesh.a 

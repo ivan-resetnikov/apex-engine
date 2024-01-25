@@ -1,5 +1,5 @@
-CMakeFiles/test_opengl_project.dir/src/main.cpp.o: \
- /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/main.cpp \
+src/apex/CMakeFiles/mesh.dir/mesh.cpp.o: \
+ /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/mesh.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -146,9 +146,6 @@ CMakeFiles/test_opengl_project.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/apex.h \
- /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/core.cpp \
+ /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/mesh.h \
  /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/glad.h \
- /usr/include/KHR/khrplatform.h /usr/local/include/GLFW/glfw3.h \
- /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/window.h \
- /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/mesh.h
+ /usr/include/KHR/khrplatform.h

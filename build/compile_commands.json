@@ -18,5 +18,10 @@
   "directory": "/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex",
   "command": "/usr/bin/g++   -g -o CMakeFiles/window.dir/window.cpp.o -c \"/home/ivan/Projects/C++/Engine Attempt 0/src/apex/window.cpp\"",
   "file": "/home/ivan/Projects/C++/Engine Attempt 0/src/apex/window.cpp"
+},
+{
+  "directory": "/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/mesh.dir/mesh.cpp.o -c \"/home/ivan/Projects/C++/Engine Attempt 0/src/apex/mesh.cpp\"",
+  "file": "/home/ivan/Projects/C++/Engine Attempt 0/src/apex/mesh.cpp"
 }
 ]

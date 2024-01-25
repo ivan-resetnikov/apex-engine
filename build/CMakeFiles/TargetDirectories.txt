@@ -1,0 +1,7 @@
+/home/ivan/Projects/C++/Engine Attempt 0/build/CMakeFiles/test_opengl_project.dir
+/home/ivan/Projects/C++/Engine Attempt 0/build/CMakeFiles/edit_cache.dir
+/home/ivan/Projects/C++/Engine Attempt 0/build/CMakeFiles/rebuild_cache.dir
+/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex/CMakeFiles/core.dir
+/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex/CMakeFiles/window.dir
+/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex/CMakeFiles/edit_cache.dir
+/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex/CMakeFiles/rebuild_cache.dir

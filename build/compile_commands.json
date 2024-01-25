@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ivan/Projects/C++/Engine Attempt 0/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/test_opengl_project.dir/src/main.cpp.o -c \"/home/ivan/Projects/C++/Engine Attempt 0/src/main.cpp\"",
+  "file": "/home/ivan/Projects/C++/Engine Attempt 0/src/main.cpp"
+},
+{
+  "directory": "/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/core.dir/core.cpp.o -c \"/home/ivan/Projects/C++/Engine Attempt 0/src/apex/core.cpp\"",
+  "file": "/home/ivan/Projects/C++/Engine Attempt 0/src/apex/core.cpp"
+},
+{
+  "directory": "/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/window.dir/window.cpp.o -c \"/home/ivan/Projects/C++/Engine Attempt 0/src/apex/window.cpp\"",
+  "file": "/home/ivan/Projects/C++/Engine Attempt 0/src/apex/window.cpp"
+}
+]

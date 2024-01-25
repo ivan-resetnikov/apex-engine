@@ -183,7 +183,7 @@ CMakeFiles/test_opengl_project.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/istream.tcc \
   ../src/apex/apex.h \
   ../src/apex/core.cpp \
-  ../src/glad.h \
+  ../src/apex/glad.h \
   /usr/include/KHR/khrplatform.h \
   /usr/local/include/GLFW/glfw3.h \
   ../src/apex/window.h
@@ -192,8 +192,6 @@ CMakeFiles/test_opengl_project.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/local/include/GLFW/glfw3.h:
 
 /usr/include/KHR/khrplatform.h:
-
-../src/glad.h:
 
 ../src/apex/apex.h:
 
@@ -306,6 +304,8 @@ CMakeFiles/test_opengl_project.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/c++/11/bits/concept_check.h:
+
+../src/apex/glad.h:
 
 /usr/include/stdint.h:
 

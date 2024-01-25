@@ -146,5 +146,5 @@ src/apex/CMakeFiles/core.dir/core.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/../glad.h \
+ /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/glad.h \
  /usr/include/KHR/khrplatform.h /usr/local/include/GLFW/glfw3.h

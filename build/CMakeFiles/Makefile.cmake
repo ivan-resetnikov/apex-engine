@@ -46,6 +46,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_opengl_project.dir/DependInfo.cmake"
+  "src/apex/CMakeFiles/glad.dir/DependInfo.cmake"
   "src/apex/CMakeFiles/core.dir/DependInfo.cmake"
   "src/apex/CMakeFiles/window.dir/DependInfo.cmake"
   )

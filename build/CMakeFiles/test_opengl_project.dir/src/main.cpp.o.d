@@ -148,6 +148,6 @@ CMakeFiles/test_opengl_project.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/istream.tcc \
  /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/apex.h \
  /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/core.cpp \
- /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/../glad.h \
+ /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/glad.h \
  /usr/include/KHR/khrplatform.h /usr/local/include/GLFW/glfw3.h \
  /home/ivan/Projects/C++/Engine\ Attempt\ 0/src/apex/window.h

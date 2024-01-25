@@ -45,6 +45,12 @@
 				"file" : 0,
 				"line" : 8,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
 			}
 		]
 	},
@@ -67,11 +73,15 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
-			"id" : "core::@dc5dce909985861f8f20"
+			"backtrace" : 2,
+			"id" : "glad::@dc5dce909985861f8f20"
 		},
 		{
 			"backtrace" : 4,
+			"id" : "core::@dc5dce909985861f8f20"
+		},
+		{
+			"backtrace" : 5,
 			"id" : "window::@dc5dce909985861f8f20"
 		}
 	],
@@ -90,16 +100,21 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-lglfw",
+				"fragment" : "src/apex/libglad.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "src/apex/libcore.a",
+				"fragment" : "-lglfw",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "src/apex/libcore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
 				"fragment" : "src/apex/libwindow.a",
 				"role" : "libraries"
 			}

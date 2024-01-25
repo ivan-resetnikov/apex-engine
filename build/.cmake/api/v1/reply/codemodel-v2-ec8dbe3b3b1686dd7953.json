@@ -19,7 +19,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -35,7 +35,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						2
+						1,
+						3
 					]
 				}
 			],
@@ -53,7 +54,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -62,21 +64,28 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "core::@dc5dce909985861f8f20",
-					"jsonFile" : "target-core-Debug-047cacdbc2a384fb6740.json",
+					"jsonFile" : "target-core-Debug-dbc57b3a83afc95b8252.json",
 					"name" : "core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@dc5dce909985861f8f20",
+					"jsonFile" : "target-glad-Debug-0cfcf3d98edd57d74dea.json",
+					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_opengl_project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_opengl_project-Debug-405a72018365a567fff5.json",
+					"jsonFile" : "target-test_opengl_project-Debug-fbd82ff5095180039d52.json",
 					"name" : "test_opengl_project",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "window::@dc5dce909985861f8f20",
-					"jsonFile" : "target-window-Debug-76109bea05f9ba2f3393.json",
+					"jsonFile" : "target-window-Debug-ecf37db24a3c612d9420.json",
 					"name" : "window",
 					"projectIndex" : 0
 				}

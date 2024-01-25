@@ -92,6 +92,7 @@ test_opengl_project_EXTERNAL_OBJECTS =
 
 test_opengl_project: CMakeFiles/test_opengl_project.dir/src/main.cpp.o
 test_opengl_project: CMakeFiles/test_opengl_project.dir/build.make
+test_opengl_project: src/apex/libglad.a
 test_opengl_project: src/apex/libcore.a
 test_opengl_project: src/apex/libwindow.a
 test_opengl_project: CMakeFiles/test_opengl_project.dir/link.txt

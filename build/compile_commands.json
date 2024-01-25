@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/glad.dir/glad.c.o -c \"/home/ivan/Projects/C++/Engine Attempt 0/src/apex/glad.c\"",
+  "file": "/home/ivan/Projects/C++/Engine Attempt 0/src/apex/glad.c"
+},
+{
+  "directory": "/home/ivan/Projects/C++/Engine Attempt 0/build/src/apex",
   "command": "/usr/bin/g++   -g -o CMakeFiles/core.dir/core.cpp.o -c \"/home/ivan/Projects/C++/Engine Attempt 0/src/apex/core.cpp\"",
   "file": "/home/ivan/Projects/C++/Engine Attempt 0/src/apex/core.cpp"
 },

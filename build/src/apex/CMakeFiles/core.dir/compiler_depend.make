@@ -181,7 +181,7 @@ src/apex/CMakeFiles/core.dir/core.cpp.o: ../src/apex/core.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../src/glad.h \
+  ../src/apex/glad.h \
   /usr/include/KHR/khrplatform.h \
   /usr/local/include/GLFW/glfw3.h
 
@@ -189,8 +189,6 @@ src/apex/CMakeFiles/core.dir/core.cpp.o: ../src/apex/core.cpp \
 /usr/local/include/GLFW/glfw3.h:
 
 /usr/include/KHR/khrplatform.h:
-
-../src/glad.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -295,6 +293,8 @@ src/apex/CMakeFiles/core.dir/core.cpp.o: ../src/apex/core.cpp \
 /usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/c++/11/bits/concept_check.h:
+
+../src/apex/glad.h:
 
 /usr/include/stdint.h:
 

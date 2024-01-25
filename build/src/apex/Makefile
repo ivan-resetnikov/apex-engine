@@ -117,6 +117,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/apex/CMakeFiles/glad.dir/rule:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apex/CMakeFiles/glad.dir/rule
+.PHONY : src/apex/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: src/apex/CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/glad.dir/build.make src/apex/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+# Convenience name for target.
 src/apex/CMakeFiles/core.dir/rule:
 	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/apex/CMakeFiles/core.dir/rule
 .PHONY : src/apex/CMakeFiles/core.dir/rule
@@ -168,6 +182,30 @@ core.cpp.s:
 	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/core.dir/build.make src/apex/CMakeFiles/core.dir/core.cpp.s
 .PHONY : core.cpp.s
 
+glad.o: glad.c.o
+.PHONY : glad.o
+
+# target to build an object file
+glad.c.o:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/glad.dir/build.make src/apex/CMakeFiles/glad.dir/glad.c.o
+.PHONY : glad.c.o
+
+glad.i: glad.c.i
+.PHONY : glad.i
+
+# target to preprocess a source file
+glad.c.i:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/glad.dir/build.make src/apex/CMakeFiles/glad.dir/glad.c.i
+.PHONY : glad.c.i
+
+glad.s: glad.c.s
+.PHONY : glad.s
+
+# target to generate assembly for a file
+glad.c.s:
+	cd "/home/ivan/Projects/C++/Engine Attempt 0/build" && $(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/glad.dir/build.make src/apex/CMakeFiles/glad.dir/glad.c.s
+.PHONY : glad.c.s
+
 window.o: window.cpp.o
 .PHONY : window.o
 
@@ -201,10 +239,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core"
+	@echo "... glad"
 	@echo "... window"
 	@echo "... core.o"
 	@echo "... core.i"
 	@echo "... core.s"
+	@echo "... glad.o"
+	@echo "... glad.i"
+	@echo "... glad.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"

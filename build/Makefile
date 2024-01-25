@@ -130,6 +130,19 @@ test_opengl_project/fast:
 .PHONY : test_opengl_project/fast
 
 #=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f src/apex/CMakeFiles/glad.dir/build.make src/apex/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+#=============================================================================
 # Target rules for targets named core
 
 # Build rule for target.
@@ -188,6 +201,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core"
+	@echo "... glad"
 	@echo "... test_opengl_project"
 	@echo "... window"
 	@echo "... src/main.o"
